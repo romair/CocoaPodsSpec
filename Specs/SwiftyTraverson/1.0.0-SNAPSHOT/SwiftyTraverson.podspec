@@ -28,7 +28,7 @@ In addition, the built-in features allow you:
   s.homepage         = "https://github.com/smoope/SwiftyTraverson"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "Victor Mosin" => "victor@smoope.com" }
-  s.source           = { :git => "https://github.com/smoope/SwiftyTraverson.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/smoope/SwiftyTraverson.git" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
