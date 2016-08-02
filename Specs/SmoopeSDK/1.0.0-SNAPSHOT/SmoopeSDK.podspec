@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SmoopeSDK"
-  s.version          = "1.0.0-SNAPSHOT"
+  s.version          = "0.0.0-SNAPSHOT"
   s.summary          = "Swift implementation of smoope RESTful API."
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Swift implementation of smoope RESTful API. All the documentation located at Smo
   s.homepage         = "https://github.com/smoope/ios-sdk"
   s.license          = 'Apache v2.0 license'
   s.author           = { "Victor Mosin" => "victor@smoope.com" }
-  s.source           = { :git => "https://github.com/romair/SmoopeMapping.git", :branch => 'master' }
+  s.source           = { :git => "https://github.com/romair/SmoopeMapping.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
