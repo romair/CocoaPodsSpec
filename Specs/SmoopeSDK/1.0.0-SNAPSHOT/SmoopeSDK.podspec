@@ -23,7 +23,7 @@ Swift implementation of smoope RESTful API. All the documentation located at Smo
   s.homepage         = "https://github.com/smoope/ios-sdk"
   s.license          = 'Apache v2.0 license'
   s.author           = { "Victor Mosin" => "victor@smoope.com" }
-  s.source           = { :git => "https://github.com/romair/Smoopemapping.git", :branch => 'master' }
+  s.source           = { :git => "https://github.com/romair/SmoopeMapping.git", :branch => 'master' }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
