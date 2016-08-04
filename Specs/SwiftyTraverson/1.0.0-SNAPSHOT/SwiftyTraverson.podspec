@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SwiftyTraverson"
-  s.version          = "0.0.0-SNAPSHOT"
+  s.version          = "1.0.0-SNAPSHOT"
   s.summary          = "Swift implementation of a Hypermedia API/HATEOAS client."
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ In addition, the built-in features allow you:
   s.homepage         = "https://github.com/smoope/SwiftyTraverson"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "Victor Mosin" => "victor@smoope.com" }
-  s.source           = { :git => "https://github.com/smoope/SwiftyTraverson.git", :branch => 'master' }
+  s.source           = { :git => "https://github.com/smoope/SwiftyTraverson.git", :branch => 'feature/preauthenticate' }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
